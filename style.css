@@ -683,12 +683,12 @@ body {
 
 @media (max-width: 600px) {
 
-    .menu-toggle {
-        display: flex;
+    nav {
+        justify-content: flex-start;
     }
 
-    .nav {
-        justify-content: flex-start;
+    .menu-toggle {
+        display: flex;
     }
 
     .nav-links {
